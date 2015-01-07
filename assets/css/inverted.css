@@ -1,0 +1,83 @@
+body.inv {
+	background-color: #999;
+	color: #000;
+	transition: all 1s ease-out;
+}
+
+body.inv .new-block {
+	display: block;
+}
+
+/* svg specific css */
+body.inv .lcd-element {
+	fill: #BBB;
+	transition: all 0.2s ease-out
+}
+body.inv .lcd-element-active {
+	fill: #009900;
+	transition: all 1s ease-out;
+}
+
+/* 1 */
+body.inv .number-is-1 .top-right,
+body.inv .number-is-1 .bottom-right,
+/* 2 */
+body.inv .number-is-2 .top-center,
+body.inv .number-is-2 .top-right,
+body.inv .number-is-2 .mid-center,
+body.inv .number-is-2 .bottom-left,
+body.inv .number-is-2 .bottom-center,
+/* 3 */
+body.inv .number-is-3 .top-center,
+body.inv .number-is-3 .top-right,
+body.inv .number-is-3 .mid-center,
+body.inv .number-is-3 .bottom-right,
+body.inv .number-is-3 .bottom-center,
+/* 4 */
+body.inv .number-is-4 .top-left,
+body.inv .number-is-4 .top-right,
+body.inv .number-is-4 .mid-center,
+body.inv .number-is-4 .bottom-right,
+/* 5 */
+body.inv .number-is-5 .top-center,
+body.inv .number-is-5 .top-left,
+body.inv .number-is-5 .mid-center,
+body.inv .number-is-5 .bottom-right,
+body.inv .number-is-5 .bottom-center,
+/* 6 */
+body.inv .number-is-6 .top-center,
+body.inv .number-is-6 .top-left,
+body.inv .number-is-6 .mid-center,
+body.inv .number-is-6 .bottom-right,
+body.inv .number-is-6 .bottom-left,
+body.inv .number-is-6 .bottom-center,
+/* 7 */
+body.inv .number-is-7 .top-center,
+body.inv .number-is-7 .top-right,
+body.inv .number-is-7 .bottom-right,
+/* 8 */
+body.inv .number-is-8 .top-center,
+body.inv .number-is-8 .top-left,
+body.inv .number-is-8 .top-right,
+body.inv .number-is-8 .mid-center,
+body.inv .number-is-8 .bottom-right,
+body.inv .number-is-8 .bottom-left,
+body.inv .number-is-8 .bottom-center,
+/* 9 */
+body.inv .number-is-9 .top-center,
+body.inv .number-is-9 .top-left,
+body.inv .number-is-9 .top-right,
+body.inv .number-is-9 .mid-center,
+body.inv .number-is-9 .bottom-right,
+body.inv .number-is-9 .bottom-center,
+/* 0 */
+body.inv .number-is-0 .top-center,
+body.inv .number-is-0 .top-left,
+body.inv .number-is-0 .top-right,
+body.inv .number-is-0 .bottom-right,
+body.inv .number-is-0 .bottom-left,
+body.inv .number-is-0 .bottom-center
+{
+fill: #111;
+transition: all 1s ease-out;
+}
